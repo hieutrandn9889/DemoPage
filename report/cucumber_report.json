@@ -1,0 +1,216 @@
+[
+  {
+    "description": "  I want to test Login page",
+    "elements": [
+      {
+        "id": "login-account;check-review-password-apply",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Check review password apply",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 615603
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website https://demo.interana.com",
+            "result": {
+              "status": "passed",
+              "duration": 2804732
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email hieutrandn9889@gmail.com, password 12345678",
+            "result": {
+              "status": "passed",
+              "duration": 2225125
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 402962
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click Explore tool",
+            "result": {
+              "status": "passed",
+              "duration": 1151937
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click View select box and choose Table",
+            "result": {
+              "status": "passed",
+              "duration": 878714
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click down arrow button of the Explore",
+            "result": {
+              "status": "passed",
+              "duration": 320902
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input 5 days ago 5 days ago of Start text box",
+            "result": {
+              "status": "passed",
+              "duration": 408835
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click down arrow button of the Time",
+            "result": {
+              "status": "passed",
+              "duration": 586014
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click Measure select box",
+            "result": {
+              "status": "passed",
+              "duration": 794362
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input user of Measure text box",
+            "result": {
+              "status": "passed",
+              "duration": 1726893
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click go button",
+            "result": {
+              "status": "passed",
+              "duration": 571419
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify text WIKIPEDIA - FIRST (__DAY__)",
+            "result": {
+              "status": "passed",
+              "duration": 520629
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I close browser",
+            "result": {
+              "status": "passed",
+              "duration": 407441
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/test/steps/demoSteps.js:87"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 191712
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/DemoPage/hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login Account",
+    "tags": [],
+    "uri": "/Users/hieutran/Desktop/DemoPage/test/features/demo.feature"
+  }
+]
